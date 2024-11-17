@@ -49,8 +49,9 @@ print(solution)
 ```
 
 ## Output:
-![result](c:\Users\admin\Pictures\Screenshots\Screenshot 2024-11-17 111235.png)
-![reult](<Screenshot 2024-11-17 111310.png>)
+![result]![Screenshot 2024-11-17 111235](https://github.com/user-attachments/assets/4ecadef2-0a3f-4de7-814c-58fbb2a0e3f1)
+![Screenshot 2024-11-17 111310](https://github.com/user-attachments/assets/15a13291-aa39-492e-adf9-cc89cb1395ea)
+
 
 
 ## Result:
