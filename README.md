@@ -8,10 +8,69 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. import numpy as np
-2. get input from the user
-3. use scipy.linalg import lu_factor,lu_solve
-4. print the desire output
+i.L AND U MATRIX
+
+1.Input the Matrix:
+
+2.Take a square or rectangular matrix as input (the user provides it). The matrix should be in the form of a 2D array.
+Convert the input to a NumPy array using np.array(eval(input())).
+LU Decomposition:
+
+3.Use the lu() function from scipy.linalg to perform LU decomposition of the input matrix.
+The lu() function decomposes the matrix into three components:
+piv: The permutation matrix, which represents row swaps (pivoting).
+l_matrix: The lower triangular matrix (with diagonal elements as 1).
+u_matrix: The upper triangular matrix.
+Output the Results:
+
+4.Print the lower triangular matrix (l_matrix).
+5.Print the upper triangular matrix (u_matrix).
+
+ii.LU DECOMPOSITION
+
+1.Input the Matrix and Vector:
+
+2.Take a square matrix (matrix) as input, provided in the form of a 2D array.
+
+3.Take a vector (b) as input, which represents the constants in the linear system 
+𝐴
+𝑥
+=
+𝑏
+Ax=b.
+
+4.LU Factorization:
+
+5.Use the lu_factor() function from scipy.linalg to perform LU decomposition on the matrix.
+
+6.This function decomposes the matrix into a lower triangular matrix 
+𝐿
+
+7.L, an upper triangular matrix 
+𝑈
+
+8.U, and a pivoting vector for row permutations.
+Solve the Linear System:
+
+9.Use the lu_solve() function to solve the linear system 
+𝐴
+𝑥
+=
+𝑏
+Ax=b, where 
+𝐴
+A is the input matrix, and 
+𝑏
+b is the constant vector.
+lu_solve() uses the previously computed LU decomposition to find the solution vector 
+𝑥
+x.
+Output the Solution:
+
+10.Print the solution vector 
+𝑥
+x.
+
 
 ## Program:
 (i) To find the L and U matrix
